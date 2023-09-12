@@ -29,7 +29,7 @@ def main():
  
    result=''
    if st.button("Predict"):
-    result=reserve(feature1,feature2,feature3,feature4,feature5,feature6,feature7,feature8,feature9,feature10,feature11,feature12,feature13,feature14,feature15,feature16,feature17)
+    result=reserve(feature1,feature2,feature3,feature4,feature5,feature6,feature7,feature8,feature9,feature10)
    st.success('The output is {}'.format(result))
 if __name__=='__main__':
   main()
