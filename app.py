@@ -16,16 +16,16 @@ def reserve(feature1,feature2,feature3,feature4,feature5,feature6,feature7,featu
 def main():
    st.title("GemStone Prediction")
 
-   feature1 = st.number_input("Feature 1", value=0.0)
-   feature2 = st.number_input("Feature 2", value=0.0)
-   feature3 = st.number_input("Feature 3", value=0.0)
-   feature4 = st.number_input("Feature 4", value=0.0)
-   feature5 = st.number_input("Feature 5", value=0.0)
-   feature6 = st.number_input("Feature 6", value=0.0)
-   feature7 = st.number_input("Feature 7", value=0.0)
-   feature8 = st.number_input("Feature 8", value=0.0)
-   feature9 = st.number_input("Feature 9", value=0.0)
-   feature10 = st.number_input("Feature 10", value=0.0)
+   feature1 = st.number_input("ID", value=0.0)
+   feature2 = st.number_input("CARAT", value=0.0)
+   feature3 = st.number_input("CUT", value=0.0)
+   feature4 = st.number_input("COLOR", value=0.0)
+   feature5 = st.number_input("CLARITY", value=0.0)
+   feature6 = st.number_input("DEPTH", value=0.0)
+   feature7 = st.number_input("TABLE", value=0.0)
+   feature8 = st.number_input("X", value=0.0)
+   feature9 = st.number_input("Y", value=0.0)
+   feature10 = st.number_input("Z", value=0.0)
  
    result=''
    if st.button("Predict"):
